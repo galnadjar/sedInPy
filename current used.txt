@@ -1,0 +1,10 @@
+import re
+
+pattern = "sed 's/[a-zA-z0-9]+/[a-zA-z0-9]+/[|n|g|p|w]'"
+userinput = input("put input: ")
+
+if re.search(pattern,userinput):
+    print ("valid text")
+    
+else:
+    print("invalid text")

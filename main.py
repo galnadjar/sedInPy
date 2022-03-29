@@ -156,7 +156,6 @@ def main():
             inputStreamName = userInput[lastSubStrInd(userInput)::].rstrip()
 
 
-    #a file was given as arg and it was properly named
     if not wasError:
        sedCmd(inputStreamName,dest,src)
 
